@@ -29,5 +29,6 @@ header div{
 }
 
 .hero{
-    
+    display: grid;
+    grid-template-columns: 500px 300px;
 }
