@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="100%" height="100%">
+  <style>
+    .text-bold { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 800; fill: #FFFFFF; font-size: 24px; letter-spacing: 3px; }
+    .text-light { font-family: 'Montserrat', 'Segoe UI', sans-serif; font-weight: 300; fill: #FFFFFF; font-size: 14px; letter-spacing: 8px; opacity: 0.8; }
+    .line { stroke: #FFFFFF; stroke-width: 2; opacity: 0.5; }
+  </style>
+  
+  <text x="20" y="38" class="text-bold">SAMUEL</text>
+  
+  <line x1="20" y1="48" x2="160" y2="48" class="line" />
+  
+  <text x="22" y="65" class="text-light">SILVA</text>
+</svg>

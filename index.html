@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,46 +9,87 @@
 </head>
 <body>
     <header>
-        <span>Samuel Silva</span>
+        <img src="./img/logo-nome.svg" alt="">
 
         <div>
-            <nav>Home</nav>
-            <nav>Habilidades</nav>
-            <nav>Projetos</nav>
-            <nav>Currículo</nav>
-            <nav>Contato</nav>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cursos">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <main>
         <section class="hero">
-            <div>
-                <h1>Bem-vindo</h1>
+            <div class="text-container">
+                <h1>Prazer, <br> Samuel <span>Silva</span></h1>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur molestias nostrum itaque perferendis expedita nesciunt corrupti vel sint temporibus distinctio id obcaecati maxime, dicta consequuntur. Quod nisi repellendus repellat sequi?</p>
+                <p>Desenvolvedor back-end em construção. Apaixonado pelo mundo financeiro e tecnológico. Focado em desenvolver soluções para o mundo financeiro através de tecnologias escaláveis, seguras e úteis em tomadas de decisões.</p>
+
+                <div class="btn-container">
+                    <button id="btn-projetos">Projetos</button>
+                    <button id="btn-contato">Contato</button>
+                </div>
+                
             </div>
-            
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="dot" id="close"></div>
+                        <div class="dot" id="minimize"></div>
+                        <div class="dot" id="maximize"></div>
+                    </div>
 
+                    <div class="window-body">
+                        <pre>
+                        <code>
+                        <span class="keyword">public double</span><span class="function"> calcularJurosCompostos</span><span>&#40;</span><span class="keyword">double</span><span> capitalInicial, </span><span class="keyword">double</span><span> taxaJuros, </span><span class="keyword">int </span><span>periodo</span><span>&#41;</span>&#123;
+                                <span class="comentario">//Transformando a taxa em porcentagem</span>
+                                <span class="keyword">double </span><span>taxaPorcent = (taxaJuros / 100);</span>
+                                <span class="keyword">double </span><span>montante = capitalInicial * Math.pow((1 + taxaPorcent), periodo);</span>
+
+                                <span class="keyword">return </span><span>montante;</span>
+                        <span>&#125;</span>
+                        </code>
+                        </pre>
+
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="section-1">
-            <h1>Minhas Stacks</h1>
+        <section class="section-1" id="habilidades">
+            <h1>Sobre Mim</h1>
 
             <div class="cards"></div>
             <div class="cards"></div>
             <div class="cards"></div>
             <div class="cards"></div>
         </section>
-        <section class="section-2">
+        <section class="section-2" id="projetos">
             <div class="cards-2"></div>
             <div class="cards-2"></div>
             <div class="cards-2"></div>
         </section>
-        <section class="section-3">
+        <section class="section-3" id="cursos">
             <div class="cards-2"></div>
             <div class="cards-2"></div>
         </section>
     </main>
-    <footer>
+    <footer id="contato">
 
     </footer>
 </body>
