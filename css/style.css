@@ -257,6 +257,7 @@ header div{
 .soft-skills{
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     gap: 15px;
 }
 
