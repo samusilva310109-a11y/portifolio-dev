@@ -3,6 +3,7 @@
 :root{
     --primary-color: #590526;
     --second-color: #f8d7c5;
+    --thrid-color: #65082d;
 }
 
 body{
@@ -57,7 +58,8 @@ header div{
     display: flex;
     width: 20%;
     gap: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Hero */
@@ -168,11 +170,36 @@ header div{
 
 /* Sections */
 
+/* Sobre mim */
+
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: var(--thrid-color);
+}
+
+.title-sobre{
+    background-color: #ff8b47;
+    margin-right: -35px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 5px;
+    padding: 20px;
+    justify-items: center;
+    color: #ffff;
+    font-size: 3rem;
+}
+
+.sobre-content{
+    color: #ffff;
+    font-size: 1.2rem;
+}
+
 
 /* Habilidades */
 
 .section-1{
-    background-color: var(--second-color);
+    background-color: var(--thrid-color);
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
     display: grid;
@@ -206,7 +233,7 @@ header div{
 #sec-1-div2 h2{    
     font-weight: 500;
     font-size: 1.9em;
-    color: var(--primary-color);
+    color: #ffff;
     margin-bottom: 25px;
 }
 
@@ -262,6 +289,7 @@ header div{
 }
 
 .cards-soft-skills{
+    align-items: stretch;
     min-width: 200px;
     max-width: 45%;
     background-color: #ffff;
