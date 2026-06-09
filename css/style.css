@@ -340,6 +340,8 @@ header div{
     border-radius: 2px;
 }
 
+/* Cards do projeto */
+
 .cards-container{
     display: flex;
     justify-content: center;
@@ -350,9 +352,19 @@ header div{
     border-radius: 8px;
     flex-grow: 1;
     max-width: 400px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .cards-2 img{
     object-fit: contain;
     width: 400px;
+}
+
+.cards-2 p{
+    margin-top: 2.5rem;
+}
+
+.cards-2 h3{
+    color: var(--primary-color);
 }
