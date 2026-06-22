@@ -368,3 +368,55 @@ header div{
 .cards-2 h3{
     color: var(--primary-color);
 }
+
+
+/* SEÇÃO CURSOS */
+
+.cursos h1::after{
+    content: '';
+    display: block;
+    width: 260px;
+    height: 4px;
+    background-color: #ff8b47;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.cursos{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+}
+
+.cursos h1{
+    margin-top: 100px;
+    color: #ffff;
+    font-size: 3rem;
+}
+
+.cards-container-curso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "card1 card1"
+        "card2 card3"
+    ;
+    gap: 15px;
+    padding: 30px;
+}
+
+.cards-curso{
+    background-color: #ffff;
+    border-radius: 8px;
+    flex-grow: 1;
+    max-height: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* CONTATO  */
+
+#contato{
+    height: 300px;
+}
